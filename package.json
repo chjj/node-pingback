@@ -1,0 +1,7 @@
+{
+  "name": "node-pingback",
+  "description": "pingbacks for node.js",
+  "author": "Christopher Jeffrey",
+  "version": "0.0.1",
+  "main": "./lib/pingback.js"
+}
