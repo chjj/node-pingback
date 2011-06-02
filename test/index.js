@@ -31,7 +31,7 @@ setTimeout(function() {
     if (err) return console.log('send error:', err.stack || err + '');
     console.log('Sent pingback to ' + pingback.href);
   });
-}, 5000);
+}, 3000);
 
 source.listen(3000);
 target.listen(4000);
