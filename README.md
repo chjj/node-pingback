@@ -99,5 +99,5 @@ Pingback.ACCESS_DENIED = 49;
              been received and handled. Arguments: `source`, `target`.
 
 ## License
-(c) Copyright 2011, Christopher Jeffrey (MIT License)
+(c) Copyright 2011, Christopher Jeffrey (MIT License). 
 See LICENSE for more info.

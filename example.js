@@ -126,7 +126,7 @@ Pingback.send('[target]', '[source]', function(err, pingback) {
 // you might want to call this after posting an article on your blog, 
 // but it would be wise to limit it somehow, you may be making a lot
 // of http requests depending on the content of your post.
-var text = 'some links here <a href="">etc</a>';
+var text = 'a link here: <a href="http://localhost:9000/article">a post</a>';
 Pingback.scan(text, '[source]', function(err, pingback) {
   // optional callback - will get called for every pingback sent
   if (!err) console.log('Pinged ' + pingback.href + ' successfully.');
