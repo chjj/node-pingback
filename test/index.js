@@ -1,8 +1,11 @@
-var Pingback = require('../lib/pingback'),
-    express = require('express');
+var Pingback = require('../lib/pingback')
+  , express = require('express');
 
-var source = express.createServer(),
-    target = express.createServer();
+var source = express.createServer()
+  , target = express.createServer();
+
+source.use(source.router);
+target.use(target.router);
 
 source.get('/source', function(req, res) {
   console.log('received request for source');
