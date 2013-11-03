@@ -2,8 +2,8 @@
   "name": "pingback",
   "description": "pingbacks for node.js",
   "author": "Christopher Jeffrey",
-  "version": "0.0.2",
-  "main": "./lib/pingback.js",
+  "version": "0.0.3",
+  "main": "./index.js",
   "repository": "git://github.com/chjj/node-pingback.git",
   "keywords": [ "pingback", "blog", "rpc" ]
 }
